@@ -30,7 +30,7 @@ There are 3 python packages to install before use. These can be installed using 
 Once installed. You need to obtain your own api keys/ tokens for each api. These are simple, just sign up and follow the set up instructions on the websites.
 Once obtained you need to put them in the correct places in the code. These are marked clearly for you. Do not upload these, as people can steal them. Keep them hidden, keep them safe.
 
-In the first (/test) run of the code, you must uncomment the line 'nltk.download('stopwords')'. This is needed to download the most commonly used words (e.g. 'a', 'it'), so that the program can remove them from tweets. Which increases the quality of the results.
+In the first (/test) run of the code, you must uncomment the line 'nltk.download('stopwords')'. This is needed to download the most commonly used words (e.g. 'a', 'it'), so that the program can remove them from tweets. Which increases the quality of the results. Once ran once (downloaded) you have to comment it again so it doesn't downlaod every run.
 
 For data storage I am using GitHub, but if you wanted to store locally you can remove the push_data function. The code should create 2 .csv files in the location you are running your code, to store the data before pushing to GitHub. If this doesn't happen, create these files for yourself and it should work.
 
