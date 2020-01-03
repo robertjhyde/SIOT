@@ -161,7 +161,7 @@ def main():
     w_row = [time, temp, feels, clouds, hum, wind, sentiment]   #store values in row
     print(w_row)
     # write to csv file
-    with open(os.path.join(sys.path[0], "test_data.csv"),'a') as f:
+    with open(os.path.join(sys.path[0], "weather_data.csv"),'a') as f:
         writer = csv.writer(f)
         writer.writerow(w_row)
     # test
