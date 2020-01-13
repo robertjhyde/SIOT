@@ -20,7 +20,7 @@ Enjoy and remember... next time you curse at the sky, it might just curse back.
 
 
 
-# Instructions for Set-Up
+# Instructions for Data Collection Set-Up
 
 Download the 'requirements.txt' file for the packages needed. Then run 'pip install -r requirements.txt' from the command line.
 
