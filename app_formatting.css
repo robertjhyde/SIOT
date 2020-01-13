@@ -1,0 +1,128 @@
+/* learn how this works haha */
+
+h1 {
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+p {
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  caption-side: bottom;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 15px;
+  text-align: middle;
+}
+
+
+#wrapper {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+  
+#cf {
+    position:relative;
+    height:380px;
+    width:300px;
+    margin: auto;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+#cf img {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    left: 0;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    -moz-transition: opacity 0.1s ease-in-out;
+    -o-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+  }
+  
+#cf img.top:hover {
+  opacity: 0;
+  }
+
+
+iframe {
+  position: absolute;
+  margin-left: 10px;
+  margin-right: auto;
+  left: 0;
+  
+}
+
+
+#spotify {
+    position:relative;
+    height:380px;
+    width:300px;
+    margin: auto;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#graph_1 {
+  position:relative;
+    height:750px;
+    width:600px;
+    margin: auto;
+    padding: 10px;
+}
+
+#graph_1 img {
+  position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    left: 0;
+}
+
+#graph_2 {
+  position:relative;
+    height:600px;
+    width:600px;
+    margin: auto;
+    padding: 10px;
+}
+
+#graph_2 img {
+  position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    left: 0;
+}
+
+#graph_3 {
+  position:relative;
+    height:300px;
+    width:600px;
+    margin: auto;
+    padding: 10px;
+}
+
+#graph_3 img {
+  position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    left: 0;
+}

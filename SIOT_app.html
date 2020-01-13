@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SIOT Test</title>
+  <link rel="stylesheet" href="app_formatting.css">
+</head>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="app_java.js"></script>
+
+<body style="background-color: #FAFAFA;">
+
+<h1>Robert Hyde SIOT Coursework</h1>
+
+<br>
+
+<div id="wrapper">
+  <div id="cf">
+    <img class="bottom" src="pixel-sad-boris.gif" alt="sad boris cry"/>
+    <img class="bottom2" src="pixel-happy-boris.gif" id="happy" alt="happy boris dance"/>
+    <img class="top" src="pixel boris normal.jpg" />
+  </div>
+  <!-- This can also work for playlists, maybe this is what I should do? -->
+  <div id="spotify"> <!--300x380, or, 300x80-->
+    <iframe id="musicplayer" src="" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  </div>
+</div>
+
+<br>
+
+<p>Ever wondered what effect the weather has on your mood?</p>
+<p>Turns out the temperature does change things. Just 4 hours afterwards.</p>
+<p>Live your life 4 hours at a time. No regrets.</p>
+
+<br><br>
+
+<h1>What's the weather like in London?</h1>
+<table style="width:50%">
+  <tr>
+    <th>Cloud Coverage (%)</th>
+    <th>Humidity Level (%)</th>
+    <th>Temperature (C)</th>
+    <th>Wind Speed (m/s)</th>
+    <th>Feels</th>
+    <th>Light Level</th>
+  </tr>
+  <tr>
+    <td id='.clouds'></p></td>
+    <td id='.hum'></td>
+    <td id='.temp'></td>
+    <td id='.windsp'></td>
+    <td id='.feels'></td>
+    <td id='.light'></td>
+  </tr>
+</table>
+
+
+<br><br>
+<br><br>
+
+
+<h1>What are you basing this on?</h1>
+<p>Correlating tweet sentiment and weather data.</p>
+<p>Data was captured over a week and then analysed as shown:</p>
+
+<figure id="graph_1">
+  <img src="basic_graphs.png" alt="data is shown here"/>
+  <figcaption>Data Collected Over the Collection Time Period</figcaption>
+</figure>
+<figure id="graph_2">
+  <img src="x_correlation.png" alt="data is shown here"/>
+  <figcaption>Correlation of Datasets</figcaption>
+</figure>
+<figure id="graph_3">
+  <img src="lag_comp.png" alt="data is shown here"/>
+  <figcaption>Changed of Correlation when Tweet Sentiment is Lagged</figcaption>
+</figure>
+
+<br><br>
+<br><br>
+
+<p>Thank you for visiting. Have a great day in touch with your mood.</p>
+
+<br><br>
+<br><br>
+
+
+</body>
+
+</html>
+
+
