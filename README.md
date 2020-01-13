@@ -6,7 +6,7 @@ An web-based API project that achieved:
 - Creation of spotify playlist for the city for the day.
 
 
-See this project live here:
+See this project live here: https://robertjhyde.github.io/SIOT/
 
 
 This project used the following APIs:
